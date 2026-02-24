@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>KAGEE TECH | CEO STRATEGIC PERFORMANCE REPORT</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { background-color: #050505; color: #e5e5e5; font-family: 'Inter', sans-serif; }
+        .card { background: #0d0d0d; border: 1px solid #1a1a1a; border-radius: 8px; }
+        .text-profit { color: #22c55e; }
+        .text-expense { color: #ef4444; }
+        .border-line { border-bottom: 1px solid #262626; }
+    </style>
+</head>
+<body class="p-4 md:p-10">
+
+    <div class="flex justify-between items-end mb-8">
+        <div>
+            <h1 class="text-4xl font-black uppercase tracking-tighter">Kagee Tech <span class="text-zinc-700">|</span></h1>
+            <p class="text-amber-500 font-bold tracking-widest uppercase text-xs">Annual Performance & Volatility Analysis</p>
+        </div>
+        <div class="text-right">
+            <p class="text-[9px] uppercase font-bold text-zinc-500">Report Date: Feb 24, 2026</p>
+        </div>
+    </div>
+
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+        <div class="card p-5"><p class="text-[9px] uppercase text-zinc-500 font-bold">Total Revenue</p><p class="text-xl font-black">₦254.93M</p></div>
+        <div class="card p-5"><p class="text-[9px] uppercase text-zinc-500 font-bold">Total Customers</p><p class="text-xl font-black">554</p></div>
+        <div class="card p-5"><p class="text-[9px] uppercase text-zinc-500 font-bold">Total Expenses</p><p class="text-xl font-black text-expense">₦210.96M</p></div>
+        <div class="card p-5 border-l-2 border-green-700"><p class="text-[9px] uppercase text-zinc-500 font-bold">Net Profit</p><p class="text-xl font-black text-profit">₦43.96M</p></div>
+    </div>
+
+    <div class="card p-6 mb-8">
+        <h2 class="text-sm font-bold mb-6 uppercase tracking-widest text-zinc-400 border-line pb-3">Year-Over-Year Performance & Volatility</h2>
+        <div class="overflow-x-auto">
+            <table class="w-full text-xs">
+                <thead>
+                    <tr class="text-zinc-500 uppercase text-[9px] text-left">
+                        <th class="pb-4">Year</th>
+                        <th class="pb-4">Best Month (Profit)</th>
+                        <th class="pb-4">Worst Month (Profit)</th>
+                        <th class="pb-4 text-right">Revenue</th>
+                        <th class="pb-4 text-right">Expenses</th>
+                        <th class="pb-4 text-right">Net Profit</th>
+                    </tr>
+                </thead>
+                <tbody class="divide-y divide-zinc-900 font-mono">
+                    <tr><td class="py-4">2022</td><td>Nov (₦48,800)</td><td>May (₦18,000)</td><td class="text-right">₦456,100</td><td class="text-right text-expense">₦321,600</td><td class="text-right text-profit">₦134,500</td></tr>
+                    <tr><td class="py-4">2023</td><td>Dec (₦784,390)</td><td>May (₦2,000)</td><td class="text-right">₦11,273,500</td><td class="text-right text-expense">₦8,913,560</td><td class="text-right text-profit">₦2,359,940</td></tr>
+                    <tr><td class="py-4">2024</td><td>Apr (₦3,273,540)</td><td>Aug (-₦82,600)</td><td class="text-right">₦92,726,950</td><td class="text-right text-expense">₦75,548,230</td><td class="text-right text-profit">₦17,178,720</td></tr>
+                    <tr><td class="py-4">2025</td><td>Apr (₦8,492,370)</td><td>May (-₦1,246,340)</td><td class="text-right">₦146,301,269</td><td class="text-right text-expense">₦125,341,618</td><td class="text-right text-profit">₦20,959,651</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="card p-6 col-span-2">
+            <h2 class="text-sm font-bold mb-4 uppercase tracking-widest text-zinc-400">2026 Projections</h2>
+            <div class="flex items-center space-x-8">
+                <div>
+                    <p class="text-[9px] uppercase text-zinc-500 font-bold">Jan 2026 Actualized Profit</p>
+                    <p class="text-3xl font-black text-profit">₦3.33M</p>
+                </div>
+                <div class="h-10 w-px bg-zinc-800"></div>
+                <div>
+                    <p class="text-[9px] uppercase text-zinc-500 font-bold">2026 Revenue Target</p>
+                    <p class="text-3xl font-black">₦123.50M</p>
+                </div>
+            </div>
+        </div>
+        <div class="card p-6 bg-zinc-900 border-zinc-800 text-center">
+            <p class="text-[9px] uppercase text-zinc-400 font-bold mb-2">CEO Insight</p>
+            <p class="text-xs text-zinc-300 leading-relaxed italic">"2025 marked our highest revenue year. 2026 strategy focus: stabilizing operational expenses during high-growth months."</p>
+        </div>
+    </div>
+
+    <footer class="mt-10 text-center text-[8px] text-zinc-600 uppercase tracking-[5px]">
+        Kagee Tech Executive Intelligence System
+    </footer>
+
+</body>
+</html>
